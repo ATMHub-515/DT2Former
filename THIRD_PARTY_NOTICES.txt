@@ -1,0 +1,184 @@
+Third-party notices for the partial public release.
+
+MeMOTR-derived portions: see the root MIT LICENSE.
+TrackEval subset: see third_party/trackeval/LICENSE (MIT).
+Deformable-attention CUDA operators: see models/ops/LICENSE (Apache-2.0).
+Some files were adapted from MOTR, DETR, Deformable DETR, or Detectron2;
+retained source attributions follow. These licenses/notices must not be removed.
+
+models/backbone.py
+# @Author       : Ruopeng Gao
+
+models/criterion.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/deformable_decoder.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/deformable_encoder.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/deformable_transformer.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ffn.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+
+models/matcher.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/memotr.py
+# @Author       : Ruopeng Gao
+
+models/mlp.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/position_embedding.py
+# @Author       : Ruopeng Gao
+
+models/query_updater.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+
+models/runtime_tracker.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+
+models/utils.py
+# @Author       : Ruopeng Gao
+
+structures/instances.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from detectron2 (https://github.com/facebookresearch/detectron2)
+# Copyright (c) Facebook, Inc. and its affiliates.
+
+structures/track_instances.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+
+utils/utils.py
+# @Author       : Ruopeng Gao
+
+utils/box_ops.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+utils/nested_tensor.py
+# @Author       : Ruopeng Gao
+
+data/transforms.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ops/setup.py
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+# Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/functions/__init__.py
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ops/functions/ms_deform_attn_func.py
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ops/modules/__init__.py
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ops/modules/ms_deform_attn.py
+# Copyright (c) Ruopeng Gao. All Rights Reserved.
+# Modified from MOTR (https://github.com/megvii-research/MOTR)
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# Modified from Deformable DETR (https://github.com/fundamentalvision/Deformable-DETR)
+# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Modified from DETR (https://github.com/facebookresearch/detr)
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
+
+models/ops/src/cpu/ms_deform_attn_cpu.cpp
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/src/cpu/ms_deform_attn_cpu.h
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/src/cuda/ms_deform_attn_cuda.cu
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/src/cuda/ms_deform_attn_cuda.h
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/src/cuda/ms_deform_im2col_cuda.cuh
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from DCN (https://github.com/msracver/Deformable-ConvNets)
+* Copyright (c) 2018 Microsoft
+
+models/ops/src/ms_deform_attn.h
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
+models/ops/src/vision.cpp
+* Copyright (c) 2020 SenseTime. All Rights Reserved.
+* Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+* Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
+
