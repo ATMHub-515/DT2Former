@@ -2,7 +2,7 @@
 
 Source utilities for **DT²Former: A Detection–Tracking Decoupled Transformer for Heterogeneous Airport Surface Multi-Object Tracking**.
 
-**Release status — partial.** This release contains the MeMOTR-based reference pipeline, dataset adapters, and tracking evaluation utilities. **The DT²Former model, decoupled decoder, auxiliary-training implementation, and trained weights are not released yet.** This is not a reproduction package for the results reported in the paper.
+**Release status — partial.** This release contains the MeMOTR-based reference pipeline, dataset adapters, and tracking evaluation utilities. **The DT²Former model, decoupled decoder, auxiliary-training implementation, and trained weights are not released yet.** This is not a reproduction package for the results reported in the paper. We will release the remaining code once the paper is accepted.
 
 ## Contents
 
